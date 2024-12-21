@@ -184,7 +184,7 @@ jobs:
       - name: Cache nuitka dependencies
         uses: actions/cache@v3
         with:
-          path: ~/.cache/xdcmd
+          path: ~/.cache/Nuitka
           key: macos-arm64-nuitka
       - name: Install pip dependencies
         run: |
@@ -236,7 +236,7 @@ jobs:
       - name: Cache nuitka dependencies
         uses: actions/cache@v3
         with:
-          path: ~/.cache/xdcmd
+          path: ~/.cache/Nuitka
           key: macos-x86-nuitka
       - name: Install pip dependencies
         run: |
